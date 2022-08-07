@@ -1,4 +1,4 @@
-import '../assets/css/Code.css'
+import '../assets/css/CodePage.module.css'
 import youtube from '../assets/images/youtube.png'
 import external from '../assets/images/new_link.png'
 

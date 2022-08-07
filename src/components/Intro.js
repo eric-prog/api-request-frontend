@@ -1,4 +1,4 @@
-import '../assets/css/Intro.css'
+import '../assets/css/IntroPage.module.css'
 import logo from '../assets/images/icon-background.png'
 
 export function Intro({props}) {

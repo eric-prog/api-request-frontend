@@ -1,4 +1,4 @@
-import '../assets/css/Bottom.css'
+import '../assets/css/BottomPage.module.css'
 import logo from '../assets/images/icon-background.png'
 import git from '../assets/images/github-logo.png'
 

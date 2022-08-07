@@ -1,4 +1,4 @@
-import '../assets/css/Body.css'
+import '../assets/css/BodyPage.module.css'
 import logo from '../assets/images/icon-background.png'
 
 export function Body({props}) {
