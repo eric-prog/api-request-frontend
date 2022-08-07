@@ -1,5 +1,8 @@
 import './App.css';
 import { Intro } from './components/Intro';
+import { Body } from './components/Body';
+import { Code } from './components/Code';
+import { Bottom } from './components/Bottom';
 
 const intro = {
   title: "API Requests JS",
@@ -8,10 +11,24 @@ const intro = {
   code: "npm i api-request-js"
 }
 
+const body = {
+  title: "😧 There's a problem...",
+  code: "npm i api-request-js"
+}
+
+const code = {
+  title: "🚀 Let's Get Started!",
+  title1:  "🌐 Import in Your Project",
+  title2:  "🥇 Just One Line"
+}
+
 function App() {
   return (
     <div className="App">
       <Intro props={intro}/>
+      <Body props={body} />
+      <Code props={code}/>
+      <Bottom />
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.bottom-wrapper {
+    width: 100%;
+    color: aliceblue;
+    padding-top: 8vh;
+    padding-bottom: 6vh;
+    background-color: rgb(50, 115, 93);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.github {
+    width: 6vh;
+    height: auto;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    border-radius: 50%;
+}
+.img-1 {
+    margin-left: 3vh;
+}
+.copyright {
+    padding-top: 4vh;
+    color: aliceblue;
+}
