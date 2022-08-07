@@ -22,7 +22,7 @@ export function Code({props}) {
                         </pre>
                         <h3 className='code-sub'>{props.title3}</h3>
                         <p className='code-des'>Log out the data!</p>
-                        <p className='code-doc'>THe .log(data) outputs the data</p>
+                        <p className='code-doc'>The .log(data) outputs the data</p>
                         <pre className='code-block'>
                             <span className='req'>request</span>.log(data)
                         </pre>
@@ -64,7 +64,7 @@ export function Code({props}) {
                                     <p className='api-link'>http://thecatapi.com/api/images/get?format=src&type=gif</p>
                                 </li>
                                 <li className='api-li'>
-                                    <p className='api-title'>Unplash Image Generator API</p>
+                                    <p className='api-title'>Unsplash Image Generator API</p>
                                     <p className='api-link'>https://source.unsplash.com/random/</p>
                                 </li>
                                 <li className='api-li'>
