@@ -21,6 +21,7 @@ export function Body({props}) {
                         <li><span className='highlight'>How does async even work?</span> </li>
                         <li><span className='highlight'>How do I error handle? .catch?</span></li>
                         <li><span className='highlight'>I can't even download an image from this url!! Ahhrr!!!</span></li>
+                        <li><span className='highlight'>What's a Promise? Whaaa?!!??</span></li>
                     </ul>
                     <p className='body-des'>This totals <span className='highlight'>over 30 lines of code</span> (depending on your use case). 
                     Meanwhile in Python it's literally one line <span className='highlight'>requests.get(url)</span>. 

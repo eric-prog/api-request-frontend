@@ -19,7 +19,8 @@ const body = {
 const code = {
   title: "🚀 Let's Get Started!",
   title1:  "🌐 Import in Your Project",
-  title2:  "🥇 Just One Line"
+  title2:  "🥇 Just One Line",
+  title3:  "🖨️ Print out the Data"
 }
 
 function App() {

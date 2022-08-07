@@ -6,6 +6,8 @@
     background-color: rgb(19, 19, 19);
     padding-top: 6vh;
     padding-bottom: 16vh;
+    justify-content: center;
+    align-items: center;
 }
 .code-wrapper {
     margin: 0;
@@ -14,7 +16,7 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -64,32 +66,74 @@
     justify-content: center;
     flex: 1;
 }
-.code-wrapper-2 {
+.code-wrapper-3 {
     display: flex;
-    flex: 0 0 50%;
-    flex-direction: column;
-    align-items: baseline;
-}
-.frame-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12vh;
     width: 80%;
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 50%;
-    height: 0;
-    background-color: aliceblue;
-    margin: 7%;
-    margin-top: 15%;
+    background-color: rgb(31, 31, 31);
+    padding-left: 10vh;
+    padding-right: 10vh;
+    border-radius: 10px;
 }
-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.api-container {
+    overflow: scroll;
+    height: 70vh;
+    width: 70%;
 }
-@media only screen and (max-width: 768px) {
-    .code-wrapper-2 {
-        flex: 0 0 100%;
-        align-items: center;
+.api-ul {
+    color: aliceblue;   
+    text-align: left;
+}
+.api-li {
+    line-height: 1.7em;
+}
+.api-title {
+    font-size: 1.2em;
+    color: aquamarine;
+}
+.api-link {
+    font-size: 0.9em;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(255, 193, 127);
+}
+.code-doc {
+    margin-top: 2vh;
+    text-align: left;
+    color: aliceblue;
+    line-height: 1.4em;
+    width: 80%;
+}
+.img-2 {
+    width: 8vh;
+    height: auto;
+}
+.img-3 {
+    width: 6vh;
+    height: auto;
+}
+.code-sub-2 {
+    margin-bottom: 8vh;
+    color: aliceblue;
+    font-size: 2em;
+    margin-top: 7.5vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+@media only screen and (max-width: 600px) {
+    .code-wrapper-3 {
+        padding-left: 0vh;
+        padding-right: 0vh;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+    .api-container {
+        overflow: scroll;
+        height: 70vh;
+        width: 50vh;
     }
 }
