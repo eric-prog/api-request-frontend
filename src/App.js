@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import { Intro } from './components/Intro';
+
+const intro = {
+  title: "API Requests JS",
+  tagline: "JavaScript requests Demystified.",
+  des: "Think Python requests but for JavaScript.",
+  code: "npm i api-request-js"
+}
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Intro props={intro}/>
     </div>
   );
 }
