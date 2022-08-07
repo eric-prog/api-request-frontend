@@ -1,4 +1,4 @@
-import '../assets/css/bottom.css'
+import BodyStyles from '../assets/css/Bottom.css'
 import logo from '../assets/images/icon-background.png'
 import git from '../assets/images/github-logo.png'
 
