@@ -1,4 +1,4 @@
-import BodyStyles from '../assets/css/Body.css'
+import '../assets/css/Body.css'
 import logo from '../assets/images/icon-background.png'
 
 export function Body({props}) {
