@@ -108,9 +108,9 @@ export function Code({props}) {
                     </div>
                 </div>
                 <div className='code-wrapper-3'>
-                    <a href="https://github.com/eric-prog/api-request-frontend" target="_"><img alt="img" className='img-2' src={youtube}></img></a>
+                    <a href="https://youtu.be/H-oMRAFVH6g" target="_"><img alt="img" className='img-2' src={youtube}></img></a>
                     <h3 className='code-sub-2'> Need Help? Watch our Video!</h3>
-                    <a href="https://github.com/eric-prog/api-request-frontend" target="_"><img alt="img" className='img-3' src={external}></img></a>
+                    <a href="https://youtu.be/H-oMRAFVH6g" target="_"><img alt="img" className='img-3' src={external}></img></a>
                 </div>
             </div>
         </>
